@@ -24,6 +24,7 @@ import {
 
 const Layout = ({ children }) => {
   const WebVOWL_URL = "https://service.tib.eu/webvowl/";
+  const Documentation_URL = "https://github.com/KillerBananaZ/ReactRacer/blob/main/ReactRacer.pdf";
   return (
     <Grid container sx={container}>
       <Grid item xs={2}>
@@ -45,7 +46,7 @@ const Layout = ({ children }) => {
             </ListItemButton>
           </div>
           <div style={flex} />
-          <div>
+          <div onClick={() => window.open(Documentation_URL, "_blank")}>
             <ListItemButton sx={menuItem}>
               <HelpIcon sx={menuItemIconMargin} />
               Help
