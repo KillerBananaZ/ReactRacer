@@ -1,0 +1,13 @@
+{
+  "name": "ReactRacer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KillerBananaZ/ReactRacer.git",
+  "author": "ZENITECH\\radu.bouaru <radu.bouaru@zenitech.co.uk>",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "reactracer",
+    "relay"
+  ]
+}

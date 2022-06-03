@@ -1,0 +1,14 @@
+{
+  "name": "relay",
+  "version": "1.0.0",
+  "main": "WebsocketRelay.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node WebsocketRelay.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "ws": "^8.7.0"
+  }
+}
